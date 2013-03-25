@@ -1,0 +1,10 @@
+config PARROT_MCLAREN_INPUT
+	bool "mclaren input"
+	help
+		Support mclaren input over lvds
+
+config PARROT_SMSC_USB82514_USB_HUB
+	tristate "SMSC USB82514 USB HUB"
+	depends on I2C
+	help
+		Automotive Grade USB 2.0 Hi-Speed 4-Port Hub

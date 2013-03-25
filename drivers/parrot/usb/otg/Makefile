@@ -1,0 +1,1 @@
+obj-$(CONFIG_PARROT_DUMMY_SMSC43340_USB) += dummy-smsc-usb43340.o

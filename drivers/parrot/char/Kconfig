@@ -1,0 +1,9 @@
+config PARROT_GPIO
+	tristate "gpio"
+	help
+		Allow userspace to drive gpio
+		
+config PARROT_PWM
+	tristate "pwm"
+	help
+		Allow userspace to drive pwm

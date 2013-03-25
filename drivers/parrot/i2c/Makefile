@@ -1,0 +1,3 @@
+obj-$(CONFIG_PARROT_MCLAREN_INPUT) += ti_ub925_lvds.o
+obj-$(CONFIG_PARROT_MCLAREN_INPUT) += mclaren_x86.o
+obj-$(CONFIG_PARROT_SMSC_USB82514_USB_HUB) += smsc-82514-usb-hub.o

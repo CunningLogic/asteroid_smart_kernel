@@ -1,0 +1,5 @@
+config PARROT_DUMMY_SMSC43340_USB
+	tristate "SMCM43340 USB"
+    	depends on ARM
+	help
+		SMCM 43340 USB for USB OTG on FC6100 OMAP 3630

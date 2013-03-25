@@ -1,0 +1,37 @@
+if INPUT_TOUCHSCREEN
+
+
+config TOUCHSCREEN_ATMEL_MXT
+	tristate "Atmel mXT I2C Touchscreen"
+	depends on I2C
+	help
+	  Say Y here if you have Atmel mXT series I2C touchscreen,
+	  such as AT42QT602240/ATMXT224, connected to your system.
+
+	  If unsure, say N.
+
+	  To compile this driver as a module, choose M here: the
+	  module will be called atmel_mxt_ts.
+
+config TOUCHSCREEN_TNX_MXT
+	tristate "TouchNetiX-Atmel mXT I2C Touchscreen"
+	depends on I2C
+	help
+	  Say Y here if you have TouchNetiX-Atmel mXT series I2C touchscreen,
+	  such as ATMXT224E V2, connected to your system.
+
+	  If unsure, say N.
+
+	  To compile this driver as a module, choose M here: the
+	  module will be called tnx_mxt_ts.
+
+config TOUCHSCREEN_ROHM_BU21023
+	tristate "ROHM BU21023 driver"
+	depends on I2C
+	help
+	  Say Y here if you have a touchscreen interface using the
+	  synaptics controller
+
+	  If unsure, say N (but it's safe to say "Y").
+
+endif

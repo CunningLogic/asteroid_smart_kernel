@@ -1,0 +1,5 @@
+config SND_SOC_FC6100_I2S_CODECS
+       tristate "Nuvoton NAU8820 and other I2S slave codecs"
+	depends on SND_OMAP_SOC && SND_OMAP_SOC_MCBSP && MACH_OMAP_FC6100 && I2C
+	help
+	  Say Y if you want to add Nuvoton WAU8822\NAU8820 I2S codecs and other I2S slave codecs (without Pal codec) on FC6100

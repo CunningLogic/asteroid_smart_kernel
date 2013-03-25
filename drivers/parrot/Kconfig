@@ -1,0 +1,13 @@
+menu "Parrot drivers"
+source "drivers/parrot/net/Kconfig"
+source "drivers/parrot/char/Kconfig"
+source "drivers/parrot/usb/otg/Kconfig"
+source "drivers/parrot/usb/serial/blackberry/Kconfig"
+source "drivers/parrot/sound/soc/codecs/Kconfig"
+source "drivers/parrot/input/touchscreen/Kconfig"
+source "drivers/parrot/power/Kconfig"
+source "drivers/parrot/i2c/Kconfig"
+menu "InvenSense"
+source "drivers/parrot/invensense/inv_mpu/Kconfig"
+endmenu
+endmenu
